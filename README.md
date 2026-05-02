@@ -1,7 +1,10 @@
 # 🍔 Swiggy Sales Insights Dashboard — Excel Analytics Project
 
 > **An end-to-end Sales & Revenue Analysis project built on real Swiggy order data — covering 1,97,430 orders across 28 Indian states, using Microsoft Excel for data cleaning, pivot analysis, and interactive dashboard creation.**
+https://github.com/SarkarMita/Swiggy-Sales-Analysis-Excel-Project/blob/main/Swiggy%20Excel%20Dashboard.png
+> ![Swiggy Sales Dashboard](assets/dashboard_preview.png)
 
+> **An end-to-end Sales & Revenue Analysis project...**
 ---
 
 ## 📌 Table of Contents
