@@ -1,10 +1,9 @@
 # 🍔 Swiggy Sales Insights Dashboard — Excel Analytics Project
 
-> **An end-to-end Sales & Revenue Analysis project built on real Swiggy order data — covering 1,97,430 orders across 28 Indian states, using Microsoft Excel for data cleaning, pivot analysis, and interactive dashboard creation.**
-https://github.com/SarkarMita/Swiggy-Sales-Analysis-Excel-Project/blob/main/Swiggy%20Excel%20Dashboard.png
-> ![Swiggy Sales Dashboard](assets/dashboard_preview.png)
+![Swiggy Sales Dashboard](https://raw.githubusercontent.com/SarkarMita/Swiggy-Sales-Analysis-Excel-Project/main/Swiggy%20Excel%20Dashboard.png)
 
-> **An end-to-end Sales & Revenue Analysis project...**
+> **An end-to-end Sales & Revenue Analysis project built on real Swiggy order data — covering 1,97,430 orders across 28 Indian states, using Microsoft Excel for data cleaning, pivot analysis, and interactive dashboard creation.**
+
 ---
 
 ## 📌 Table of Contents
@@ -169,22 +168,72 @@ Several large Indian states show low sales contribution. States like Bihar, Odis
 
 **7. Protect the 4.34 rating as a business KPI**  
 Rating consistency is a competitive moat. Every operational decision — delivery time, packaging, partner onboarding — should be stress-tested for its impact on ratings before being rolled out.
-
----
-
 ## 🎓 Key Learnings
 
-**On the technical side:**
-- **Pivot Tables are the backbone of Excel analytics.** Once raw data is clean and structured, pivot tables can answer almost any business question in minutes. Slicing the same pivot by time, geography, and category is a skill that pays off every time.
-- **Data structure matters more than data volume.** This dataset had nearly 2 lakh rows but because each column was clearly defined and consistently formatted, the analysis was fast and clean. Messy data at 10,000 rows is harder than clean data at 2 lakh.
-- **Map visualisations in Excel are underused.** Most people default to bar and pie charts. The India map in this dashboard communicates geographic distribution in a way no table ever could.
-- **KPI cards give instant context.** Having five headline numbers visible at all times means anyone opening the file immediately understands the scale of what they are looking at.
+- Working with a dataset of nearly 2 lakh rows taught me that **clean data structure matters more than data volume** — once the columns were properly defined, the analysis moved fast and without friction.
 
-**On the analytical side:**
-- **Consistency is as interesting as spikes.** People usually look for the highs and lows. But here, the 4.34 rating holding steady across all quarters was actually one of the most meaningful findings — and it almost got missed.
-- **Always look at absolute numbers AND percentages.** Q3 looks weak at ₹1.34 Crore but it only covers two months. Comparing it directly to Q1 and Q2 without this context leads to a wrong conclusion.
-- **City-level data unlocks operational insight.** The state map is great for a high-level view, but the city breakdown is where real decisions get made. The Bengaluru gap is an entire strategic story on its own.
+- I learnt how to build **Pivot Tables that answer real business questions** — not just summarise numbers, but slice the same data by time, city, food type, and day to find patterns that are not obvious at first glance.
+
+- The **map visualisation** was something I had never used before in Excel. Building the state-wise sales map was one of the most satisfying parts of this project — it communicated geography in a way a bar chart simply cannot.
+
+- I realised that **KPI cards change how a dashboard feels**. Before adding them, the dashboard looked like a report. After adding the five headline numbers at the top, it started feeling like something a manager could actually use in two minutes.
+
+- One insight surprised me: **Q3 sales looked low until I checked that it only covered two months**. That was a lesson in always validating the denominator before drawing conclusions from numbers.
+
+- The **4.34 average rating staying consistent across all three quarters** was something I almost scrolled past. It taught me to look for stability as carefully as I look for spikes — consistency at scale is its own kind of insight.
+
+- This project gave me hands-on practice in the full analytics workflow — **raw data → cleaning → pivot analysis → KPI design → dashboard → storytelling** — and made me realise how much each step depends on the one before it.
+
+- ---
+
+## 📥 Download & View
+
+| File | Link |
+|---|---|
+| 📊 Excel Dashboard File | [Download Excel File](https://github.com/SarkarMita/Swiggy-Sales-Analysis-Excel-Project/blob/main/Swiggy%20%20Data%20Analysis%20Excel.xlsx) |
+| 🖼️ Dashboard Screenshot | [View Full Dashboard](https://github.com/SarkarMita/Swiggy-Sales-Analysis-Excel-Project/blob/main/Swiggy%20Excel%20Dashboard.png) |
 
 ---
 
-## 🗂️ Project Structure# Swiggy-Sales-Analysis-Excel-Project
+## 🚀 How to Use This File
+
+1. **Download** the Excel file from the link above.
+2. Open it in **Microsoft Excel** (2016 or later recommended for map support).
+3. Navigate to the **Dashboard** sheet to see the interactive visualisation.
+4. Use the **slicers** on the left panel to filter by Month, Category, and Restaurant.
+5. To explore the underlying data, go to the **Swiggy Data** sheet.
+6. All pivot calculations live in the **Analysis** sheet — feel free to explore or extend them.
+
+> ⚠️ **Note:** The map visualisation requires an internet connection and is best viewed in Excel for Windows or Mac. It may not render in Google Sheets or LibreOffice.
+
+---
+
+## 🛠️ Tools Used
+
+| Tool | Purpose |
+|---|---|
+| **Microsoft Excel** | Data cleaning, pivot tables, dashboard, charts |
+| **Excel Power Query** | Data transformation and shaping |
+| **Excel Pivot Charts** | All visualisations including map chart |
+| **Excel Slicers** | Dashboard interactivity (filter by Month, Category, Restaurant) |
+| **GitHub** | Version control and project hosting |
+
+---
+
+## 👤 Author
+
+**Mita Sarkar**  
+Aspiring Data Analyst | Excel & Dashboard Enthusiast
+
+🔗 [GitHub — SarkarMita](https://github.com/SarkarMita)
+
+---
+
+⭐ **If you found this project useful, consider giving it a star on GitHub!**
+
+> *This project was built as part of a personal data analytics portfolio to demonstrate end-to-end Excel-based analysis skills.*
+---
+
+
+
+## 🗂️ Project Structure
